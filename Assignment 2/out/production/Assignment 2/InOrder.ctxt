@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=InOrder
+comment1.params=n1\ n2\ n3
+comment1.target=boolean\ OutOfOrder(int,\ int,\ int)
+comment2.params=n1\ n2\ n3
+comment2.target=boolean\ inOrder(int,\ int,\ int)
+comment3.params=n1\ n2\ n3
+comment3.target=boolean\ inOrder5a(int,\ int,\ int)
+comment4.params=n1\ n2\ n3
+comment4.target=boolean\ inOrder5b(int,\ int,\ int)
+comment5.params=m\ p\ q
+comment5.target=boolean\ InBetween(int,\ int,\ int)
+numComments=6

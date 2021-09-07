@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Passenger
+comment0.text=\r\n\ Represents\ a\ Passenger\ at\ an\ Airport\r\n\ Each\ Passenger\ has\r\n\ \ \ \ a\ field\ with\ their\ initials,\r\n\ \ \ \ their\ cabin\ class\r\n\ \ \ \ a\ seat\ number\r\n\r\n\ Constructor\:\r\n\ \ \ \ \ Passenger(cabin,\ seat,\ initials)\r\n\r\n\ Methods\:\r\n\ \ \ compareTo(other)\ ->\ int\r\n\ \ \ toString()\ \ \ \ \ \ \ ->\ String\r\n\ \ \ draw(x,\ y)\r\n\ \ \ getSeat()\ \ \ \ \ \ \ \ ->\ int\r\n\r\n
+comment1.params=c\ s\ init
+comment1.target=Passenger(int,\ int,\ java.lang.String)
+comment1.text=\r\n\ Construct\ a\ new\ Passenger\ object\r\n\r\n
+comment2.params=
+comment2.target=int\ getSeat()
+comment3.params=other
+comment3.target=int\ compareTo(Passenger)
+comment3.text=\r\n\ Compare\ this\ Passenger\ with\ another\ Passenger\ to\ determine\ who\ should\r\n\ board\ first.\r\n\ A\ Passenger\ should\ be\ earlier\ in\ the\ ordering\ if\ they\ should\ board\ first.\r\n\ The\ ordering\ depends\ on\ passenger's\ flight\ class\ type\ and\ the\ arrival\ time.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ toString\:\ Descriptive\ string\ of\ the\ information\ in\ the\ Passenger\ \r\n
+comment5.params=x\ y
+comment5.target=void\ draw(double,\ double)
+comment5.text=\r\n\ Draw\ the\ Passenger\:\ 6\ units\ wide,\ 28\ units\ high\ x,y\ specifies\ center\ of\ the\r\n\ base\r\n
+comment6.params=count
+comment6.target=java.util.Set\ makePassengers(int)
+comment6.text=\r\n\ Construct\ a\ list\ of\ count\ passengers,\ with\r\n\ 1\ in\ 30\ of\ the\ passengers\ being\ first\ class,\r\n\ 2\ in\ 30\ being\ business\ class,\ and\r\n\ the\ rest\ being\ economy\ class.\r\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

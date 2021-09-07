@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Thing
+comment0.text=\ A\ Thing\ is\ an\ object\ that\ has\ a\ name.\r\n\ Things\ can\ be\ printed,\ compared\ with\ equals,\ and\ compared\ according\ to\ alphabetical\ order.\r\n
+comment1.params=s
+comment1.target=Thing(java.lang.String)
+comment2.params=other
+comment2.target=boolean\ equals(java.lang.Object)
+comment3.params=other
+comment3.target=int\ compareTo(Thing)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=toString\ returns\ the\ name
+numComments=5

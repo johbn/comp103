@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Pencil
+comment0.text=Pencil
+comment1.params=
+comment1.target=void\ setupGUI()
+comment1.text=\r\n\ Setup\ the\ GUI\r\n
+comment2.params=action\ x\ y
+comment2.target=void\ doMouse(java.lang.String,\ double,\ double)
+comment2.text=\r\n\ Respond\ to\ mouse\ events\r\n
+comment3.params=
+comment3.target=void\ redraw()
+comment4.params=
+comment4.target=void\ undo()
+comment5.params=
+comment5.target=void\ redo()
+comment6.params=arguments
+comment6.target=void\ main(java.lang.String[])
+comment7.params=
+comment7.target=void\ colourPicker()
+comment8.params=test
+comment8.target=void\ setSliderValue(double)
+numComments=9

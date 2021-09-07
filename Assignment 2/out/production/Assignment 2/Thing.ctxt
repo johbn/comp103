@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Thing
+comment0.text=\ A\ Thing\ is\ an\ object\ that\ has\ a\ name.\r\n\ Things\ can\ be\ printed,\ compared\ with\ equals,\ and\ compared\ according\ to\ alphabetical\ order.\r\n
+comment1.params=s
+comment1.target=Thing(java.lang.String)
+comment2.params=other
+comment2.target=boolean\ equals(java.lang.Object)
+comment3.params=other
+comment3.target=int\ compareTo(Thing)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=toString\ returns\ a\ random\ value
+comment5.params=str
+comment5.target=java.util.List\ makeList(java.lang.String)
+comment5.text=Returns\ an\ unmodifiable\ list\ of\ Things\ for\ testing
+comment6.params=str
+comment6.target=java.util.List\ makeSortedList(java.lang.String)
+comment6.text=Returns\ an\ unmodifiable,\ sorted\ list\ of\ Things\ for\ testing
+numComments=7

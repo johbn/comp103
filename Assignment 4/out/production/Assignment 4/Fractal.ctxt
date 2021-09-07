@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Fractal
+comment0.text=Fractal
+comment1.params=x\ y\ size
+comment1.target=void\ makeFractal(double,\ double,\ double)
+comment1.text=\r\n\ Construct\ a\ Fractal\ Diagram\ made\ up\ of\ a\ triangular\ pattern\ of\r\n\ "elements".\ Each\ element\ is\ a\ circle\ with\ three\ "spikes".\r\n\ See\ the\ assignment\ description\ for\ the\ pattern\ of\ how\ the\r\n\ \ elements\ are\ put\ together.\r\n\ x\ and\ y\ are\ the\ center\ of\ the\ central\ element\ of\ the\ pattern,\ and\r\n\ size\ is\ the\ length\ of\ the\ three\ spikes\ from\ that\ element.\r\n\ Each\ element\ will\ have\ three\ smaller\ elements\ placed\ at\ the\ ends\ of\ its\ spikes\r\n\ You\ should\ stop\ if\ the\ size\ of\ the\ element\ is\ 3\ or\ less.\r\n\r\n\ The\ diagram\ is\ a\ List\ of\ all\ the\ elements.\r\n\ \ Your\ method\ MUST\ use\ addElement(....)\ to\ add\ an\ element\ to\ the\ diagram.\r\n\ \ Do\ NOT\ try\ to\ draw\ the\ element\ directly\ on\ the\ graphics\ pane.\r\n
+comment2.params=x\ y\ size
+comment2.target=void\ addElement(double,\ double,\ double)
+comment2.text=\r\n\ Adds\ one\ fractal\ element\ to\ the\ diagram.\r\n\ The\ element\ is\ a\ circle\ and\ three\ spikes.\r\n\ The\ method\ prints\ out\ the\ element\ in\ the\ text\ pane\ to\r\n\ help\ your\ debugging.\r\n
+comment3.params=
+comment3.target=void\ setupGUI()
+comment3.text=\r\n\ Initialise\ the\ interface\r\n
+comment4.params=action\ x\ y
+comment4.target=void\ doMouse(java.lang.String,\ double,\ double)
+comment5.params=centerX\ centerY\ size
+comment5.target=java.util.List\ testFractal(double,\ double,\ double)
+comment5.text=\r\n\ Used\ for\ marking.\ DO\ NOT\ MODIFY\!\r\n\ Resets\ the\ diagram\ list,\ and\ then\ calls\ the\ makeFractal\ method\r\n\ Returns\ the\ diagram.\r\n
+comment6.params=arguments
+comment6.target=void\ main(java.lang.String[])
+comment7.params=
+comment7.target=void\ checkCompile()
+comment7.text=\r\n\ Does\ nothing,\ but\ compiling\ with\ this\ method\ ensures\ that\ the\ method\r\n\ \ headers\ have\ not\ been\ changed.\r\n
+numComments=8

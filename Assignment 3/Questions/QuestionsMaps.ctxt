@@ -1,0 +1,66 @@
+#BlueJ class context
+comment0.target=QuestionsMaps
+comment0.text=\r\n\ QuestionsMaps\:\ \r\n\ Automarked\ questions\ about\ Maps\r\n
+comment1.params=map\ set
+comment1.target=java.util.List\ lookupAll(java.util.Map,\ java.util.Set)
+comment1.text=\r\n\ lookupAll\ is\ passed\ a\ Map\ (from\ Strings\ to\ Things)\ and\ a\ Set\ of\ Strings.\r\n\ It\ should\ return\ a\ new\ List\ containing\ every\r\n\ \ Thing\ that\ is\ associated\ (according\ to\ the\ map)\ with\ a\ string\ in\ the\ set,\ \r\n\ If\ a\ String\ in\ the\ set\ is\ not\ in\ the\ map,\ lookupAll\ should\ not\ add\r\n\ \ \ a\ value\ to\ the\ list.\r\n\ If\ two\ different\ Strings\ are\ mapped\ to\ the\ same\ Thing,\ then\r\n\ \ the\ returned\ list\ should\ contain\ the\ Thing\ twice.\r\n\ For\ example,\r\n\ \ \ if\ the\ map\ contains\ the\ key\=value\ pairs\r\n\ \ \ \ \ {"a"\=X,\ "b"\=U,\ "d"\=W,\ "e"\=U,\ "f"\=Z}\r\n\ \ \ and\ the\ set\ contains\ {"a",\ "b",\ "c",\ "e"}\r\n\ \ \ then\ lookupAllInLists\ should\ return\ the\ list\r\n\ \ \ \ \ [X,\ U,\ U],\r\n\ The\ order\ of\ Things\ in\ the\ returned\ list\ does\ not\ matter.\r\n\ If\ the\ map\ and/or\ the\ set\ are\ null,\ lookupAll\ should\ return\ an\ empty\ list\r\n\ lookupAll\ should\ not\ modify\ the\ map.\r\n
+comment10.params=
+comment10.target=void\ testTransitiveLookup()
+comment10.text=\ Test\ the\ transitiveLookup\ method\r\n\ \ Example\ maps\ were\ \ \ a\=XYZ\ b\=UVU\ c\=VWXZ\ \ and\ \ Y\=M\ U\=P\ W\=Q\ Z\=N\ T\=M\r\n
+comment11.params=
+comment11.target=void\ testInverseLookup()
+comment11.text=\ Test\ the\ inverseLookup\ method\r\n\ \ Example\ maps\ were\ \ a\=X\ b\=U\ c\=V\ d\=U\ e\=Y\ f\=Z\ \ and\ \ W\=M\ U\=P\ X\=N\ V\=Q\ Y\=N\r\n
+comment12.params=
+comment12.target=void\ testConstructCounts()
+comment12.text=Test\ the\ constructCounts\ method
+comment13.params=prompt
+comment13.target=java.util.List\ askListThing(java.lang.String)
+comment13.text=\r\n\ Asks\ user\ for\ a\ string\ of\ letters,\ and\ constructs\r\n\ a\ List\ of\ Things,\ with\ each\ letter\ in\ the\ string\ as\ the\ name\ of\ a\ Thing\r\n
+comment14.params=prompt
+comment14.target=java.util.Set\ askSetString(java.lang.String)
+comment14.text=\r\n\ Asks\ user\ for\ a\ token,\ and\ constructs\r\n\ a\ Set\ of\ Strings\ consisting\ of\ each\ letter\ in\ the\ token\ \r\n
+comment15.params=prompt
+comment15.target=java.util.Map\ askMapST(java.lang.String)
+comment15.text=\r\n\ Asks\ user\ for\ a\ map\ from\ Strings\ to\ Things.\r\n\ Reads\ the\ key->value\ pairs\ in\ the\ form\ \ \ a\=x\ b\=y\ c\=z\r\n\ Returns\ the\ Map\r\n
+comment16.params=prompt
+comment16.target=java.util.Map\ askMapSLT(java.lang.String)
+comment16.text=\r\n\ Asks\ user\ for\ a\ map\ from\ Strings\ to\ Lists\ of\ Things.\r\n\ Reads\ the\ key->value\ pairs\ in\ the\ form\ \ \ a\=xyz\ b\=yu\ c\=uvwxy\r\n\ Returns\ the\ Map\r\n
+comment17.params=prompt
+comment17.target=java.util.Map\ askMapTI(java.lang.String)
+comment17.text=\ \ \r\n\ Asks\ user\ for\ a\ map\ from\ Things\ to\ Items.\r\n\ Reads\ the\ key->value\ pairs\ in\ the\ form\ \ \ x\=m\ y\=n\ z\=p\r\n\ Returns\ the\ Map\r\n
+comment18.params=
+comment18.target=void\ initMapST()
+comment18.text=Initialise\ mapST\ with\ the\ map\ in\ the\ comment\ for\ lookupAll()
+comment19.params=
+comment19.target=void\ initMapSLT()
+comment19.text=Initialise\ mapSLT\ with\ the\ map\ in\ the\ comment\ for\ lookupAllInLists()
+comment2.params=map\ set
+comment2.target=java.util.List\ lookupAllInLists(java.util.Map,\ java.util.Set)
+comment2.text=\r\n\ lookupAllInLists\ is\ passed\ a\ map\ (from\ Strings\ to\ Lists\ of\ Things)\ and\r\n\ \ a\ Set\ of\ Strings.\r\n\ It\ should\ return\ a\ new\ List\ containing\ every\ Thing\ that\ is\r\n\ \ in\ a\ List\ associated\ with\ a\ string\ in\ the\ Set.\r\n\ The\ returned\ List\ should\ not\ contain\ any\ duplicates.\r\n\ For\ example,\r\n\ \ \ if\ the\ map\ contains\r\n\ \ \ \ \ {"a"\=[X,\ Y,\ Z],\ "b"\=[U,V],\ "c"\=[V,\ W,\ X]}\r\n\ \ \ and\ the\ set\ contains\ {"a","c"}\r\n\ \ \ then\ lookupAllInLists\ should\ return\ the\ list\r\n\ \ \ \ \ [X,\ Y,\ Z,\ V,\ W],\r\n\ If\ the\ map\ and/or\ the\ set\ are\ null,\ lookupAllInLists\ should\ return\ an\ empty\ list\r\n\ The\ order\ of\ Things\ in\ the\ returned\ List\ does\ not\ matter.\r\n\ If\ the\ map\ and/or\ the\ set\ are\ null,\ lookupAll\ should\ return\ an\ empty\ list\r\n\ lookupAllInLists\ should\ not\ modify\ the\ map\ or\ the\ set.\r\n
+comment20.params=
+comment20.target=void\ initMapTI()
+comment20.text=Initialise\ mapTI\ with\ the\ map\ in\ the\ comment\ for\ transitiveLookup()
+comment21.params=
+comment21.target=void\ reportMaps()
+comment22.params=
+comment22.target=void\ checkCompile()
+comment3.params=map1\ map2\ string
+comment3.target=java.util.Set\ transitiveLookup(java.util.Map,\ java.util.Map,\ java.lang.String)
+comment3.text=\r\n\ transitiveLookup\ is\ passed\ two\ maps\r\n\ \ a\ map\ from\ Strings\ to\ Lists\ of\ Things\r\n\ \ a\ map\ from\ Things\ to\ Items)\r\n\ \ and\ a\ String.\r\n\ It\ should\ look\ up\ the\ String\ in\ the\ first\ map.\r\n\ If\ there\ are\ any\ associated\ Things,\ then\ it\ should\ look\ up\ each\ Thing\r\n\ \ in\ the\ second\ map\ to\ find\ associated\ items.\r\n\ It\ should\ return\ a\ Set\ of\ all\ the\ associated\ Items.\ \r\n\ It\ should\ look\ up\ the\ String\ in\ the\ first\ map,\ and\ then\ look\ up\r\n\ each\ of\ the\ associated\ Things\ (if\ any)\ in\ the\ second\ map,\ and\ return\ a\ Set\ of\r\n\ all\ the\ associated\ Items.\ \r\n\ For\ example,\r\n\ \ \ if\ map1\ contains\r\n\ \ \ \ \ {"a"\=[X,Y,Z],\ "b"\=[U,V,U],\ "c"\=[V,W,X,Z]}\r\n\ \ \ and\ map2\ contains\r\n\ \ \ \ \ {Y\=M,\ U\=P,\ W\=Q,\ Z\=N,\ T\=M}\r\n\ \ \ transitiveLookup(map1,\ map2,\ "a")\ should\ return\ {M,\ N}\r\n\ \ \ transitiveLookup(map1,\ map2,\ "b")\ should\ return\ {P}\r\n\ \ \ transitiveLookup(map1,\ map2,\ "d")\ should\ return\ {}\r\n\ If\ either\ of\ the\ maps\ or\ the\ string\ are\ null,\ transitiveLookup\ should\ return\ an\ empty\ set\r\n\ transitiveLookup\ should\ not\ modify\ the\ maps.\r\n
+comment4.params=map1\ map2\ item
+comment4.target=java.util.Set\ inverseLookup(java.util.Map,\ java.util.Map,\ Item)
+comment4.text=\r\n\ inverseLookup\ is\ passed\ two\ maps\ (one\ from\ Strings\ to\ Things\r\n\ and\ the\ other\ from\ Things\ to\ Items)\ and\ an\ Item.\r\n\ It\ should\ return\ a\ Set\ of\ all\ the\ Strings\ that\ are\ keys\ in\ the\ first\ map\r\n\ associated\ with\ Things\ that\ are\ keys\ in\ the\ second\ map\ associated\ with\ the\ Item.\r\n\ For\ example,\r\n\ \ \ if\ map1\ contains\r\n\ \ \ \ \ {"a"\=X,\ "b"\=U,\ "c"\=V,\ "d"\=U,\ "e"\=Y,\ "f"\=Z}\r\n\ \ \ and\ map2\ contains\r\n\ \ \ \ \ {W\=M,\ U\=P,\ X\=N,\ V\=Q,\ Y\=N}\r\n\ \ \ inverseLookup(map1,\ map2,\ Q)\ should\ return\ [c]\r\n\ \ \ inverseLookup(map1,\ map2,\ P)\ should\ return\ [b,\ d]\r\n\ \ \ inverseLookup(map1,\ map2,\ N)\ should\ return\ [a,\ e]\r\n\ If\ either\ of\ the\ maps\ or\ the\ Item\ are\ null,\ inverseLookup\ should\ return\ an\ empty\ set\r\n\ inverseLookup\ should\ not\ modify\ the\ maps.\r\n
+comment5.params=list
+comment5.target=java.util.Map\ constructCounts(java.util.List)
+comment5.text=\r\n\ constructCounts\ is\ passed\ a\ List\ of\ Things\ which\ may\ contain\ many\ duplicates.\r\n\ constructCounts\ should\ return\ a\ Map\ from\ Thing\ to\ Integer\ that\ contains\ the\ counts\r\n\ of\ every\ distinct\ Thing\ in\ the\ List.\r\n\ For\ example,\r\n\ \ \ \ if\ the\ list\ has\ [A,\ B,\ A,\ C,\ A,\ B,\ A,\ D,\ A]\r\n\ \ \ \ then\ constructCounts\ should\ return\ the\ Map\r\n\ \ \ \ {A\=5,\ B\=2,\ C\=1,\ D\=1}\r\n\ If\ the\ List\ is\ null,\ constructCounts\ should\ return\ null\r\n\ constructCounts\ should\ not\ modify\ the\ list.\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment7.params=
+comment7.target=void\ setupGUI()
+comment8.params=
+comment8.target=void\ testLookupAll()
+comment8.text=Test\ the\ lookupAll\ method
+comment9.params=
+comment9.target=void\ testLookupAllInLists()
+comment9.text=Test\ the\ lookupAllInLists\ method
+numComments=23

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Event
+comment0.text=Event,\ for\ recording\ the\ events\ in\ the\ simulation
+comment1.params=t\ p\ num
+comment1.target=Event(java.lang.String,\ Passenger,\ int)
+comment2.params=t\ num
+comment2.target=Event(java.lang.String,\ int)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

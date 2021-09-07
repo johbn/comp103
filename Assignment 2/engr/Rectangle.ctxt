@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment1.params=x1\ y1\ x2\ y2
+comment1.target=Rectangle(int,\ int,\ int,\ int)
+comment2.params=x\ y
+comment2.target=boolean\ contains(int,\ int)
+comment3.params=n1\ n2\ n3
+comment3.target=boolean\ InOrder(int,\ int,\ int)
+numComments=4

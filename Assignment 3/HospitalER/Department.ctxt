@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Department
+comment0.text=\r\n\ A\ treatment\ Department\ (Surgery,\ X-ray\ room,\ \ ER,\ Ultrasound,\ etc)\r\n\ Each\ department\ will\ needp\r\n\ -\ A\ name,\r\n\ -\ A\ maximum\ number\ of\ patients\ that\ can\ be\ treated\ at\ the\ same\ time\r\n\ -\ A\ Set\ of\ Patients\ that\ are\ currently\ being\ treated\r\n\ -\ A\ Queue\ of\ Patients\ waiting\ to\ be\ treated.\r\n\ \ \ \ (ordinary\ queue,\ or\ priority\ queue,\ depending\ on\ argument\ to\ constructor)\r\n
+comment1.params=departmentName\ MAXPATIENTS\ priority
+comment1.target=Department(java.lang.String,\ int,\ boolean)
+comment10.params=patient
+comment10.target=void\ addPatientToQue(Patient)
+comment11.params=y
+comment11.target=void\ redraw(double)
+comment11.text=\r\n\ Draw\ the\ department\:\ the\ patients\ being\ treated\ and\ the\ patients\ waiting\r\n\ You\ may\ need\ to\ change\ the\ names\ if\ your\ fields\ had\ different\ names\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=int\ getAmmountInQue()
+comment4.params=
+comment4.target=int\ getMaxPatients()
+comment5.params=
+comment5.target=int\ howManyCurrentlyTreated()
+comment6.params=
+comment6.target=void\ incrementTicks()
+comment7.params=
+comment7.target=java.util.Set\ checkForFinishedTreatment()
+comment8.params=
+comment8.target=java.util.Set\ returnAllFinishedPatients()
+comment9.params=
+comment9.target=void\ checkForMorePatients()
+numComments=12

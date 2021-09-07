@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\ A\ Item\ is\ an\ object\ that\ has\ a\ pair\ of\ values.\r\n\ Items\ can\ be\ printed,\ compared\ and\ used\ in\ hashed\ collections.\r\n
+comment1.params=s
+comment1.target=Item(java.lang.String)
+comment2.params=other
+comment2.target=boolean\ equals(java.lang.Object)
+comment3.params=other
+comment3.target=int\ compareTo(Item)
+comment4.params=
+comment4.target=int\ hashCode()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=toString\ returns\ iden
+numComments=6
